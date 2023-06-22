@@ -1,3 +1,5 @@
+# Band Generator:
+
 #1. Create a greeting for your program.
 print("Hello! " + "Welcome to Band Name Generator!")
 
