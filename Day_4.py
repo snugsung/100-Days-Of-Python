@@ -25,20 +25,20 @@ else:
     print("Please choose a valid option.")
 
 if player_choice == "Rock" and computer_choice == "Paper":
-    print(f"Player loses! Player chose {player_choice} and Computer chose {computer_choice}")
+    print(f"\nPlayer loses! Player chose {player_choice} and Computer chose {computer_choice}.\n")
 elif player_choice == "Rock" and computer_choice == "Scissors":
-    print(f"Player wins! Player chose {player_choice} and Computer chose {computer_choice}")
+    print(f"\nPlayer wins! Player chose {player_choice} and Computer chose {computer_choice}.\n")
 elif player_choice == "Rock" and computer_choice == "Rock":
-    print(f"It's a draw! Player chose {player_choice} and Computer chose {computer_choice}")
+    print(f"\nIt's a draw! Player chose {player_choice} and Computer chose {computer_choice}.\n")
 elif player_choice == "Paper" and computer_choice == "Scissors":
-    print(f"Player loses! Player chose {player_choice} and Computer chose {computer_choice}")
+    print(f"\nPlayer loses! Player chose {player_choice} and Computer chose {computer_choice}.\n")
 elif player_choice == "Paper" and computer_choice == "Rock":
-   print(f"Player wins! Player chose {player_choice} and Computer chose {computer_choice}")
+   print(f"\nPlayer wins! Player chose {player_choice} and Computer chose {computer_choice}.\n")
 elif player_choice == "Paper" and computer_choice == "Paper":
-     print(f"It's a draw! Player chose {player_choice} and Computer chose {computer_choice}")
+     print(f"\nIt's a draw! Player chose {player_choice} and Computer chose {computer_choice}.\n")
 elif player_choice == "Scissors" and computer_choice == "Rock":
-    print(f"Player loses! Player chose {player_choice} and Computer chose {computer_choice}")
+    print(f"\nPlayer loses! Player chose {player_choice} and Computer chose {computer_choice}.\n")
 elif player_choice == "Scissors" and computer_choice == "Paper":
-    print(f"Player wins! Player chose {player_choice} and Computer chose {computer_choice}")
+    print(f"\nPlayer wins! Player chose {player_choice} and Computer chose {computer_choice}.\n")
 elif player_choice == "Scissors" and computer_choice == "Scissors":
-    print(f"It's a draw! Player chose {player_choice} and Computer chose {computer_choice}")   
+    print(f"\nIt's a draw! Player chose {player_choice} and Computer chose {computer_choice}.\n")   
