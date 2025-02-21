@@ -37,6 +37,6 @@ for char in range(0, nr_numbers):
 
 random.shuffle(password)
 
-coverted_password = ''.join(password)
+converted_password = ''.join(password)
 
-print(coverted_password)
+print(converted_password)
